@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+   
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        body{
+            margin: 0;
+            background: rgb(250, 159, 189);
+        }
+        nav{
+            background-color: grey;
+            width: 100%;
+            overflow: auto;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        li{
+            padding-left: 40px;
+            float: left;
+        }
+        nav a{
+            width: 120px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            background: grey;
+            font-size: 17px;
+            color: white;
+            padding: 20px 10px;
+            font-family: Arial;
+        }
+        nav a:hover{
+            background: skyblue;
+            color: black;
+        }
+        .container{
+            max-width: 1300px;
+            margin: auto;
+            background: #f2f2f2;
+            overflow: auto;
+            size: 20px;
+        }
+        .galeri{
+            margin: 10px;
+            border: 1px solid #ccc;
+            float: left;
+            size: 20px;
+            width: 390px; 
+        }
+        .galeri img{
+            width: 100%;
+            height: auto;
+        }
+        .banner{
+            height: 90vh;
+            border: 1px solid;
+            background-image: url(C.jpg);
+            background-size: cover;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Objek_Wisata.html">Objek Wisata</a></li>
+            <li><a href="Harga.html">Harga Tiket</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section class="banner">
+            <h2>Wisata Labuhan Bajo</h2>
+        </section>
+    </div>
+</body>
+</html>
